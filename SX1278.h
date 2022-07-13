@@ -251,13 +251,13 @@ typedef struct {
 } SX1278_t;
 
 //hardware
-__weak void SX1278_hw_init(SX1278_hw_t * hw);
-__weak void SX1278_hw_SetNSS(SX1278_hw_t * hw, int value);
-__weak void SX1278_hw_Reset(SX1278_hw_t * hw);
-__weak void SX1278_hw_SPICommand(SX1278_hw_t * hw, uint8_t cmd);
-__weak uint8_t SX1278_hw_SPIReadByte(SX1278_hw_t * hw);
-__weak void SX1278_hw_DelayMs(uint32_t msec);
-__weak int SX1278_hw_GetDIO0(SX1278_hw_t * hw);
+  void SX1278_hw_init(SX1278_hw_t * hw);
+  void SX1278_hw_SetNSS(SX1278_hw_t * hw, int value);
+  void SX1278_hw_Reset(SX1278_hw_t * hw);
+  void SX1278_hw_SPICommand(SX1278_hw_t * hw, uint8_t cmd);
+  uint8_t SX1278_hw_SPIReadByte(SX1278_hw_t * hw);
+  void SX1278_hw_DelayMs(uint32_t msec);
+  int SX1278_hw_GetDIO0(SX1278_hw_t * hw);
 
 //logic
 
