@@ -4,6 +4,8 @@
  *
  * work based on DORJI.COM sample code and
  * https://github.com/realspinner/SX1278_LoRa
+ *
+ * upd by bazhen.paseka 13-July-2022
  */
 
 #ifndef __SX1278_H__
